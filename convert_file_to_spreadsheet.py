@@ -9,7 +9,7 @@ with open(json_file, "r") as f:
 
 results = data["results"]["results"]
 
-with open(csv_file, "w", encoding="utf-8", newline="`") as f:
+with open(csv_file, "w", encoding="utf-8", newline="") as f:
     csv_writer = csv.writer(f)
 
     count = 0
