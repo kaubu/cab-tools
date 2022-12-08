@@ -1,8 +1,8 @@
 import json
 import csv
 
-json_file = "cab_search.json"
-csv_file = "cab_data.csv"
+json_file = "input/cab_search.json"
+csv_file = "output/cab_data.csv"
 
 with open(json_file, "r") as f:
     data = json.load(f)
